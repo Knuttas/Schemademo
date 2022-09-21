@@ -1,4 +1,4 @@
-name: CI for schemademo
+name: CICD for schemademo
 
 on:
   push:
@@ -77,7 +77,7 @@ jobs:
 
      
 
-      - name: Deploy from dev
+      - name: Deploy from main
         # Here 'ssh dev' is like run command which will be the same for every branch 
         # 'cd dev' here dev is the folder we make in the server (aws-terminal)
         run: ssh dev 'cd dev/ && git fetch && git pull origin dev && npm install'

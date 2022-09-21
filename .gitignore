@@ -112,3 +112,4 @@ dist
 
 #Database
 #schedule-data-service/database/nodehill_schedule.db
+*.mp4
